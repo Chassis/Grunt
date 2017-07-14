@@ -7,8 +7,10 @@ Ensure you have a Chassis instance set up locally already and that you have the 
 ```
 # In your Chassis dir:
 git clone --recursive https://github.com/Chassis/Grunt.git extensions/grunt
+```
 
-# Reprovision
+Then you'll need to reprovision
+```
 cd ..
 vagrant provision
 ```
@@ -20,8 +22,12 @@ Alternatively you can add the extension to one of your yaml config files. e.g.
 # Install a list of extensions automatically
 extensions:
     - chassis/grunt
-    - chassis/nodejs
-# Reprovision
+```
+
+Then you'll need to reprovision
+
+```
+cd ..
 vagrant provision
 ```
 
