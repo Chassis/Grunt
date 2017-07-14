@@ -1,4 +1,5 @@
 class grunt (
+	$config,
 	$path = "/vagrant/extensions/grunt",
 ) {
 	exec { 'install grunt':
