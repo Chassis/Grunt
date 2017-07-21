@@ -1,7 +1,7 @@
 # Install Grunt
 class grunt (
 	$config,
-	$path = /vagrant/extensions/grunt,
+	$path = '/vagrant/extensions/grunt',
 ) {
 	exec { 'install grunt':
 		path    => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/' ],
